@@ -1,0 +1,257 @@
+body, html {
+    margin: 0;
+    padding: 0; 
+ 
+}
+.nav-item{
+    margin: 30px;
+    margin-right: 20px;
+}
+
+.masthead {
+    position: relative;
+    background-image: url(./img/985cabb6920eaaeecfea44bd6b5ef5d8.png);
+    background-size: cover;
+    height: 900px;
+}
+
+.btn {
+    background-color: #F84646;
+    padding: 10px;
+    color:#FFFFFF;
+
+}
+
+.container-sm {
+    max-width: 700px;
+    margin-left: 100px;
+    color: black;
+    width: 665px;
+    height: 400px;
+    text-align: left;
+}
+
+/*  SPALVOTI BURBULIUKAI */
+
+
+.container1 {
+    padding-bottom: 100px;
+}
+
+
+h5 {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.text {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 650px; 
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.input-group {
+    width: 470px;
+    height: 60px;
+    
+}
+
+.row {
+    padding-bottom: 100px;
+}
+
+.col {
+    position: relative;  
+    display: inline-block;
+}
+
+.small-paragraph {
+    max-width: 250px; 
+    margin: 0 auto; 
+}
+
+.elipse {
+    width: 60px;         
+    height: 60px;        
+    border-radius: 50%;  
+    position: absolute;  
+    top: -20px;         
+    opacity: 0.8;  
+    z-index: 10;
+}
+
+#elipse1 {
+    background-color: #FF5391;
+    right: 170px;  
+}
+
+#elipse2 {
+    background-color: #7553FF;
+    right: 230px; 
+}
+
+#elipse3 {
+    background-color: #53C1FF;
+    right: 150px;  
+}
+
+#elipse4 {
+    background-color: #53ACFF;
+    right: 220px; 
+}
+
+#elipse5 {
+    background: #FF5353;
+    right: 150px;
+}
+
+#elipse6 {
+    background-color: #FFBA53;
+    right: 190px;
+}
+@media (max-width: 1197px) {
+    .container.text-center .row {
+        flex-direction: row; 
+    }
+}
+
+@media (max-width: 991px) {
+    .container.text-center .row {
+        flex-direction: row; 
+    }
+}
+
+@media (max-width: 767px) {
+    .container.text-center .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+i {
+    position: relative;  
+    z-index: 5;
+    font-size: 100px;
+}
+
+/* Raudona pastraipa raudoname fone */
+
+.text1 {
+    background-image: linear-gradient(rgba(248, 70, 70), rgba(248, 70, 70, 0.7)), url('../img/9c95c18933a375fb8c7f5e24ccb04f62.png'); /* Pakeiskite į savo paveikslėlio kelią */
+    background-size: cover;         
+    background-position: center;  
+    background-repeat: no-repeat;  
+    color: white;                   
+    padding: 50px;                
+    height: 300px;   
+    text-align: center;
+}
+
+.red-tekst {
+    padding-bottom: 50px;
+}
+.custom-row {
+    margin: 0 auto;
+    padding: 20px; 
+}
+.bi {
+    display: inline-flex;               
+    justify-content: center;          
+    align-items: center;
+    width: 40px;                    
+    height: 40px;                   
+    border: 2px solid white;      
+    border-radius: 50%;             
+    margin: 0 5px;                 
+    color: white;                   
+}
+
+
+@media (max-width: 768px) {
+    .text1 {
+        padding: 15px;             
+    }
+}
+@media (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .text1 {
+        height: 400px;
+    }
+}
+
+
+/* su nuotraukomis pastraipos 2 */
+.section1 .container-fluid {
+    width: 80%;
+}
+
+img {
+    width: 80%; 
+    height: auto; 
+    display: block;
+}
+
+.kalite {
+    width: 80%;
+}
+
+.button-1 {
+    margin-top: 100px;
+    padding: 15px 60px;
+}
+
+
+/* Logotipai */
+.logo {
+    background-color: #F4F5F7;
+    padding: 0px;
+}
+
+#logo-tekst {
+    margin-bottom: 90px;
+}
+
+.reference-logo {
+    width: 300%; 
+}
+
+.col-2 {
+    display: flex;   
+    align-items: center;     
+    justify-content: center;  
+    height: 0px;            
+
+}
+
+.text-white {
+    background: #F8464A;
+}
+
+.button-2 {
+    padding: 15px 40px;
+}
+
+#elipse7 {
+    position: absolute;
+    background-color: #F84646;
+    left: 670px;
+    top: 50px;
+    height: 130px;
+    width: 130px;
+}
+
+.text-right i {
+    font-size: 1.5em; 
+    margin-left: 10px;
+    left: 250px;
+}
+
